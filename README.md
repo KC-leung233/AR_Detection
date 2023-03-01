@@ -1,5 +1,5 @@
 # AR_Detection
-Our AR detection algorithm is developed by refering Wille et al. (2021). When the meridional distance of a pAR is more than 20°  ,
+Our AR detection algorithm is developed by refering Wille et al. (2021). When the meridional distance of a potential AR is more than 20°,
 it is classified into an AR (Wille et al., 2021). And ARs in different schemes (integrated water vapour (IWV), 
 integrated water vapour transport (IVT), v-component integrated water vapour transport (vIVT), etc.), with 
 different threshold and in detection period can be flexiblely detected only by changing the original data, 
