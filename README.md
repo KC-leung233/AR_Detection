@@ -2,7 +2,7 @@
 Our AR detection algorithm is developed by refering Wille et al. (2021). When the meridional distance of a potential AR is more than 20°,
 it will be classified into an AR (Wille et al., 2021). And ARs in different schemes (integrated water vapour (IWV), 
 integrated water vapour transport (IVT), v-component integrated water vapour transport (vIVT), etc.), with 
-different threshold and in detection period can be flexiblely detected only by changing the original data, 
+different thresholds and detection periods can be flexiblely detected only by changing the original data, 
 threshold and time period.
 
 Meaning of AR Results
