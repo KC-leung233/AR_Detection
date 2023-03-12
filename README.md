@@ -1,5 +1,5 @@
 # AR_Detection_Algorithm
-Our AR detection algorithm is developed by refering Wille et al. (2021). When the meridional distance of a potential AR is more than 20°,
+Our AR detection algorithm is developed by referring Wille et al. (2021). When the meridional distance of a potential AR is more than 20°,
 it will be classified into an AR (Wille et al., 2021). And ARs in different schemes (integrated water vapour (IWV), 
 integrated water vapour transport (IVT), v-component integrated water vapour transport (vIVT), etc.), with 
 different thresholds and detection periods can be flexiblely detected only by changing the original data, 
@@ -10,14 +10,14 @@ The meaning of each columns in AR_Result:
 	1: The date of ARs, the format is: yyyymmddhh
 	2: The ID of AR
 	3: AR occurence in Indian Ocean (20E-90E), the first value is the state of AR occurence (occured is 1, absent is 0), 
-	and the second value is the maximum vIVT value among the sea ice sector. Note that, the AR may fall on 
+	and the second value is the maximum IVT value among the sea ice sector. Note that, the AR may fall on 
 	more than ONE sea ice setors simultaneously.Column 3-7 are similar but in different sea ice sectors. The division
 	of sea ice sectors is refered to Ionita et al. 2018 and Turner et al., 2017.
 	4: AR occurence in western Pacific Ocean (90E-160E)
 	5: AR occurence in Ross Sea (160E-130W)
 	6: AR occurence in Amundsen-Bellingshausen Sea (130W-60W)
 	7: AR occurence in Weddell Sea (60W-20E)
-	8: The maximum vIVT value among the pixels which intersect with the edge
+	8: The maximum IVT value among the pixels which intersect with the edge
 	of the Antarctic continent.
 	9: The sector where the maximum value occureed. If the value equals 1
 	indicating that the maximum occures in this setor. The sectors are 0-90,
